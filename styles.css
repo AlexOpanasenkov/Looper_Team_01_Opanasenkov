@@ -217,7 +217,12 @@ body {
     margin-left: 91px;
 }
 
-.main__main-team__person_social-icon-dribbble-codepen {
+.fab,
+.fa-twitter {
+    font-size: inherit;
+}
+
+.main__main-team__person_social-icon-dribbble {
     margin-right: 43px;
 }
 
