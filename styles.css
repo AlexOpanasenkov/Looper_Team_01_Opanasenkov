@@ -145,6 +145,7 @@ body {
     justify-content: center;
     align-items: center;
     margin: auto;
+    margin-bottom: 166px;
     flex-direction: column;
     width: 39%;
 }
@@ -177,16 +178,48 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin-left: 153px;
     border: dashed 1px red;
 }
 
 .main__main-team__person {
     border: dashed 1px red;
     width: 262px;
-    height: 262px;
+    height: 394px;
+    text-align: center;
 }
 
+.main__main-team__person_foto {
+    margin-bottom: -2px;
+}
 
+.main__main-team__person_name {
+    font: 800 22px/35px 'Mplus 1p', arial, helvetica, sans-serif;
+    margin-bottom: -12px;
+    padding-left: 6px;
+}
+
+.main__main-team__person_position {
+    font: 800 13px/26px 'Mplus 1p', arial, helvetica, sans-serif;
+    padding-left: 5px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+
+.main__main-team__person_social {
+    display: flex;
+    justify-content: center;
+    width: 65%;
+}
+
+.main__main-team__person_social-icon-twitter {
+    margin-right: 43px;
+    margin-left: 91px;
+}
+
+.main__main-team__person_social-icon-dribbble-codepen {
+    margin-right: 43px;
+}
 
 
 
