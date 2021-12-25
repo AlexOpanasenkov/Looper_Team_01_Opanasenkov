@@ -1,6 +1,6 @@
-* {
+/* * {
     border: dashed 1px red;
-}
+} */
 
 body {
     margin: 0;
@@ -23,27 +23,22 @@ body {
 .header-top {
     display: flex;
     justify-content: space-between;
-    width: 81%;
+    width: 80%;
     margin: auto;
-    margin-top: 49px;
+    margin-top: 56px;
 }
 
 .logo__text {
     position: relative;
-    padding: 1px 0 40px 59px;
+    padding: 0px 0 42px 54px;
     margin-right: 13%;
-    font-family: Mplus 1p;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 24px;
-    line-height: 43px;
+    font: 900 24px/45px 'Mplus 1p', arial, helvetica, sans-serif; 
     letter-spacing: 2px;
-    border: dashed 1px red;
 }
 
 .menu {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items:center;
     padding: 1px 0 40px 27px;
     width: 75%;
@@ -52,36 +47,58 @@ body {
 .menu-nav_link {
     display: flex;
     align-items:center;
-    margin-right: 54px;
-    padding-top: 3px;
+    margin-right:41px;
+    margin-left: 19px;
+    padding-top: 2px;
 }
 
 .menu-nav__link_item{
-    padding: 0 27px;
+    margin-right: 56px;
+    padding-top: 1px;
+    font: 800 14px/30px 'Mplus 1p',arial, helvetica, sans-serif;
+    letter-spacing: 2.1px;
+    color: #000;
+    text-decoration: none;
+    transition: opacity 0.5s;
+}
+
+.menu-nav__link_item:nth-child(2) {
+    margin-right: 55px;
+    letter-spacing: 2.1px;
+}
+
+.menu-nav__link_item:nth-child(3) {
+    margin-right: 55px;
+    letter-spacing: 2.2px;
+}
+
+.menu-nav__link_item:nth-child(4) {
+    margin-right: 57px;
+    letter-spacing: 2.2px;
+    margin-top: -2px;
 }
 
 .menu-nav_tel{
     display: flex;
     align-items:center;
-    
 }
 
 .menu-nav_tel_icon,
 .menu-nav_tel_number {
-    padding: 0 27px;
+    margin-top: 4px;
+    margin-right: 18px;
+    letter-spacing: 2.2px;
+    text-decoration: none;
 }
 
-
-/* .logo__text,
-.menu {
-    display: inline-block;
-} */
+.menu-nav_tel_number {
+    font: 800 14px/30px 'Mplus 1p', arial, helvetica, sans-serif;
+    letter-spacing: 2.2px;
+    color:#000;
+}
 
 .menu__item:last-child {
     padding-right: 0;
-}
-
-.menu__item_icon_tlf {
 }
 
 .menu-nav_burger {
@@ -91,14 +108,88 @@ body {
     height: 16px;
 }
 
-.header__header-bg {
-    margin-top: 44px;
-    margin-left: -6px;
-    width: 1440px;
-    height: 33%;
-    left: 0px;
-    display:block; 
+.menu-nav_burger_btn {
+    position: absolute;
+    margin-top: 6px;
+    margin-left: -45px;
 }
+
+.header__header-bg-art {
+    margin-top: 1px;
+    width: 1440px;
+    height: 71%;
+    left: 0px;
+    display:block;
+    background-size: cover;
+}
+
+.header__title {
+    font: 500 54px/80px 'Mplus 1p', arial, helvetica, sans-serif;
+    margin-top: -253px;
+    margin-bottom: 6px;
+    margin-left: 147px;
+    color: #F61067;
+}
+
+.header__header-slogan {
+    font: 800 18px/37px 'Mplus 1p', arial, helvetica, sans-serif;
+    margin-left: 146px;
+    margin-bottom: 296px;
+    text-transform: uppercase;
+    color: #F4F4ED;
+    letter-spacing: 4px;
+}
+
+.main__main-discription {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
+    width: 39%;
+}
+
+.main-discription_subtitle {
+    font: 800 13px/26px 'Mplus 1p', arial, helvetica, sans-serif;
+    margin-bottom: -25px;
+    color: #F61067;
+    text-transform: uppercase;
+    letter-spacing: 5.9px;
+}
+
+.main-discription_title {
+    font: 500 45px/67px 'Mplus 1p', arial, helvetica, sans-serif;
+    margin-bottom: 4px;
+    margin-left: -2px;
+    color: #30233D;
+}
+
+.main-discription_fluid-slogan {
+    font: 800 18px/30px 'Mplus 1p', arial, helvetica, sans-serif; 
+    text-align: center;
+    margin-left: -1px;
+    padding-left: 1px;
+    color: #30233D;
+}
+
+.main__main-team {
+    width: 72%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: dashed 1px red;
+}
+
+.main__main-team__person {
+    border: dashed 1px red;
+    width: 262px;
+    height: 262px;
+}
+
+
+
+
+
 
 /* .logo__circle {
     transform: translateY(-50%);
