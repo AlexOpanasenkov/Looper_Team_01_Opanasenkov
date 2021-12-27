@@ -254,7 +254,21 @@ body {
     margin-right: 43px;
 }
 
+.main__slogan-latin {
+    background: top -14px right 0px no-repeat url(img/bg/faces.png);
+    min-height: 1080px;
+}
 
+.main__slogan-latin_foto-senior {
+    margin-top: -126px;
+    margin-left: 492px;
+    border-radius: 50%;
+}
+
+.main__slogan-latin_quotes {
+    margin-top: -37px;
+    margin-left: 680px;
+}
 
 
 /* .logo__circle {
