@@ -140,6 +140,10 @@ body {
     letter-spacing: 4px;
 }
 
+.main {
+
+}
+
 .main__main-discription {
     display: flex;
     justify-content: center;
@@ -174,7 +178,9 @@ body {
 }
 
 .main__main-team {
-    background: #150433;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 10%, #150433 9%);
+    border: dashed 1px red;
+    min-height: 1203px;
 }
 
 .main__main-team__person {
