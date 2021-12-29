@@ -268,6 +268,55 @@ body {
 .main__slogan-latin_quotes {
     margin-top: -37px;
     margin-left: 680px;
+    margin-bottom: 27px;
+}
+
+.main__slogan-latin_slogan {
+    font: 400 36px/64px 'Noticia Text', arial, helvetica, sans-serif;
+    width: 720px;
+    margin-left: 174px;
+    margin-right: 180px;
+    text-align: center;
+    margin-bottom: 35px;
+    color: #30233D;
+}
+
+
+.main__slogan-latin_slogan_name {
+    font: 400 18px/29px 'Mplus 1p', arial, helvetica, sans-serif;
+    margin-left: 588px;
+}
+
+.main__slogan-latin_name-red {
+    font: 800 18px/29px 'Mplus 1p', arial, helvetica, sans-serif;
+    color:#F61067;
+}
+
+.main__slogan-latin_btn {
+    display: flex;
+    align-items: center;
+    margin-bottom: -18px;
+}
+
+.main__slogan-latin_slogan_btn-left {
+    border-radius: 50%;
+    border-color: #F61067;
+    background-color: #F61067;
+    width: 35px;
+    height: 35px;
+    margin-top: 5px;
+    margin-left: 152px;
+    cursor: pointer;
+}
+
+.main__slogan-latin_slogan_btn-right {
+    border-radius: 50%;
+    border-color: #F61067;
+    width: 36px;
+    height: 35px;
+    margin-top: 6px;
+    margin-left: -2px;
+    cursor: pointer;
 }
 
 
