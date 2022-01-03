@@ -179,7 +179,6 @@ body {
 
 .main__main-team {
     background: linear-gradient(180deg, rgba(255, 255, 255, 1) 10%, #150433 9%);
-    border: dashed 1px red;
     min-height: 1203px;
 }
 
@@ -257,6 +256,7 @@ body {
 .main__slogan-latin {
     background: top -14px right 0px no-repeat url(img/bg/faces.png);
     min-height: 1080px;
+    margin-bottom: -179px;
 }
 
 .main__slogan-latin_foto-senior {
@@ -268,7 +268,7 @@ body {
 .main__slogan-latin_quotes {
     margin-top: -37px;
     margin-left: 680px;
-    margin-bottom: 27px;
+    margin-bottom: 29px;
 }
 
 .main__slogan-latin_slogan {
@@ -280,7 +280,6 @@ body {
     margin-bottom: 35px;
     color: #30233D;
 }
-
 
 .main__slogan-latin_slogan_name {
     font: 400 18px/29px 'Mplus 1p', arial, helvetica, sans-serif;
@@ -299,8 +298,8 @@ body {
 }
 
 .main__slogan-latin_slogan_btn-left {
+    border: 2px #F61067 solid;
     border-radius: 50%;
-    border-color: #F61067;
     background-color: #F61067;
     width: 35px;
     height: 35px;
@@ -310,13 +309,71 @@ body {
 }
 
 .main__slogan-latin_slogan_btn-right {
+    border: 2px #F61067 solid;
     border-radius: 50%;
-    border-color: #F61067;
+    background-color: #FCFCFC;
     width: 36px;
     height: 35px;
     margin-top: 6px;
     margin-left: -2px;
     cursor: pointer;
+}
+
+.main__newsletter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 166px;
+    flex-direction: column;
+    width: 45%;
+}
+
+input {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    border: none;
+}
+
+.main__newsletter_btn {
+    font: 800 18px/37px 'Mplus 1p', arial, helvetica, sans-serif;
+    letter-spacing: 4px;
+    border: none;
+    padding-top: 9px;
+    margin-left: -195px;
+    margin-right: 23px;
+    width: 167px;
+}
+.main__newsletter_subscribe {
+    display: flex;
+}
+
+.main__newsletter_subscribe-gradient {
+    display: flex;
+}
+
+.main__newsletter_title {
+    font: 500 45px/67px 'Mplus 1p', arial, helvetica, sans-serif;
+    margin: 0;
+    margin-bottom: 23px;
+    padding-left: 2px;
+}
+
+.main__newsletter_subtitle {
+    font: 500 18px/26px 'Mplus 1p', arial, helvetica, sans-serif;
+    margin: 0;
+    margin-bottom: 50px;
+}
+
+.main__newsletter_title-btn {
+    font: 800 12px/26px 'Mplus 1p', arial, helvetica, sans-serif;
+    color: #F61067;
+    text-transform: uppercase;
+    letter-spacing: 5.9px;
+}
+.main__newsletter_img-right {
+    display: inline-block;
 }
 
 
