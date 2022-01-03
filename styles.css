@@ -341,10 +341,10 @@ input {
     letter-spacing: 4px;
     border: none;
     padding-top: 9px;
-    margin-left: -195px;
     margin-right: 23px;
     width: 167px;
 }
+
 .main__newsletter_subscribe {
     display: flex;
 }
