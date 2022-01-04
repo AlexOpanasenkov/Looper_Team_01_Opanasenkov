@@ -183,15 +183,12 @@ body {
 }
 
 .main__main-team__person {
-    width: 1048px;
     display: flex;
     flex-wrap: wrap;
+    width: 1048px;
+    min-height: 394px;
     padding-top: 2px;
     margin: 0 auto;
-}
-
-.main__main-team__person {
-    min-height: 394px;
 }
 
 .main__main-team__person_foto1 {
@@ -246,7 +243,6 @@ body {
 
 .fa-codepen {
     color: #F4F4ED;
-
 }
 
 .main__main-team__person_social-icon-dribbble {
@@ -321,12 +317,11 @@ body {
 
 .main__newsletter {
     display: flex;
+    flex-direction: column;
+    width: 45%;
     justify-content: center;
     align-items: center;
     margin: auto;
-    margin-bottom: 166px;
-    flex-direction: column;
-    width: 45%;
 }
 
 input {
@@ -357,6 +352,7 @@ input {
 .main__newsletter_subscribe-gradient {
     display: flex;
     width: 226px;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F2F2F2 100%);
 }
 
 .main__newsletter_title {
@@ -395,6 +391,13 @@ input {
 
 .main__newsletter_img-right {
     display: inline-block;
+}
+
+.main__line-backgound {
+    width: 558px;
+    height: 3px;
+    background-color: #F4F4ED;
+    margin: 0 auto;
 }
 
 
