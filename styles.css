@@ -427,13 +427,23 @@ footer {
     color: #FCFCFC;
 }
 
-.footer__wrapper__nav-menu {
+.footer__wrapper__nav {
+    display: flex;
+}
+
+.footer__wrapper__nav-menu,
+.footer__wrapper__nav-services,
+.footer__wrapper__nav-contact-us,
+.footer__wrapper__nav-follow-us {
     display: flex;
     flex-direction: column;
     border: 1px solid red;
 }
 
-.footer__wrapper__nav-menu_menu-activ {
+.footer__wrapper__nav-menu_menu-activ,
+.footer__wrapper__nav-services_services-activ,
+.footer__wrapper__nav-contact-us_nav-contact-us-activ,
+.footer__wrapper__nav-follow-us_nav-follow-us-activ {
     position: relative;
     font: 800 13px/26px 'Mplus 1p', arial, helvetica, sans-serif;
     letter-spacing: 6px;
@@ -442,23 +452,30 @@ footer {
     color:#FCFCFC;
 }
 
-.footer__wrapper__nav-menu_menu-activ::after {
+.footer__wrapper__nav-menu_menu-activ::after,
+.footer__wrapper__nav-services_services-activ::after,
+.footer__wrapper__nav-contact-us_nav-contact-us-activ::after,
+.footer__wrapper__nav-follow-us_nav-follow-us-activ::after {
     position: absolute;
     top: 28px;
     left: 0;
     display: block;
     content: '';
-    width: 100%;
+    width: 93%;
     height: 3px;
     background: #0056ec;
     transition: opacity 0.5s;
 }
-.footer__wrapper__nav-menu_ul {
+
+.footer__wrapper__nav-menu_ul,
+.footer__wrapper__nav-services_ul {
     font: 700 12px/28px 'Mplus 1p', arial, helvetica, sans-serif;
     letter-spacing: 1px;
     text-decoration: none;
     color:#FCFCFC;
 }
+
+
 /* .logo__circle {
     transform: translateY(-50%);
     position: absolute;
