@@ -194,35 +194,11 @@ body {
 }
 
 .main-block__image {
-    /* position: absolute; */
     width: 100%;
     height: 100%;
     top: 0;
     left: 0;
 }
-
-/* .main__main-bg {
-    width: 100%;
-    height: 360px;
-    background: url(img/bg/header-bg.jpg) 50%/cover no-repeat;
-} */
-
-/* .main-bg__title {
-    font: 500 54px/148% 'Mplus 1p', arial, helvetica, sans-serif;
-    margin-bottom: 6px;
-    margin-left: 147px;
-    padding-top: 107px;
-    color: #F61067;
-} */
-
-/* .main-bg__header-slogan {
-    font: 800 18px/206% 'Mplus 1p', arial, helvetica, sans-serif;
-    margin-left: 146px;
-    margin-bottom: 296px;
-    text-transform: uppercase;
-    color: #F4F4ED;
-    letter-spacing: 4px;
-} */
 
 .page {
     flex: 1 1 auto;
@@ -272,32 +248,23 @@ body {
     flex-wrap: wrap;
     width: 54%;
     min-height: 394px;
-    /* padding-top: 2px; */
     margin: 0 auto;
 }
 
 .main__main-team__person_foto1 {
-    /* margin-right: 127px; */
     margin-bottom: 22px;
 }
 
 .main__main-team__person_foto2 {
-    /* margin-right: 133px; */
     margin-bottom: 20px;
 }
 
 .main__main-team__person_foto3 {
-    /* margin-right: 133px; */
     margin-bottom: 21px;
 }
 
-.main__main-team__person_foto4 {
-    /* margin-right: 124px; */
-    margin-bottom: 22px;
-}
-
+.main__main-team__person_foto4,
 .main__main-team__person_foto5 {
-    /* margin-right: 133px; */
     margin-bottom: 22px;
 }
 
@@ -312,19 +279,13 @@ body {
 }
 
 .main__main-team__person_name2 {
-    font: 800 22px/35px 'Mplus 1p',
-        arial,
-        helvetica,
-        sans-serif;
+    font: 800 22px/35px 'Mplus 1p', arial, helvetica, sans-serif;
     padding-left: 60px;
     color: #FCFCFC;
 }
 
 .main__main-team__person_name3 {
-    font: 800 22px/35px 'Mplus 1p',
-    arial,
-    helvetica,
-    sans-serif;
+    font: 800 22px/35px 'Mplus 1p', arial, helvetica, sans-serif;
     padding-left: 68px;
     color: #FCFCFC;
 }
@@ -379,9 +340,7 @@ body {
 }
 
 .main__slogan-latin {
-    /* background: top -14px right 0px no-repeat url(img/bg/faces.png); */
     position: relative;
-    /* min-height: 1080px; */
     margin-bottom: 263px;
 }
 
@@ -415,10 +374,6 @@ body {
 
 .main__slogan-latin_slogan h2{
     font: 400 36px/64px 'Noticia Text', arial, helvetica, sans-serif;
-    
-    /* margin-left: 174px;
-    margin-right: 180px; */
-    
     margin-bottom: 53px;
     color: #30233D;
 }
@@ -445,7 +400,6 @@ body {
     width: 35px;
     height: 35px;
     margin-top: -39px;
-    /* margin-left: 152px; */
     cursor: pointer;
 }
 
@@ -502,10 +456,6 @@ input {
     padding-left: 23px;
     margin-right: 84px;
 }
-
-/* .main__newsletter_img-right {
-    padding-top: 5px;
-} */
 
 .main__newsletter_subscribe {
     display: flex;
@@ -574,7 +524,7 @@ footer {
 
 .footer__wrapper {
     display: flex;
-    width: 60%;
+    width: 61%;
     margin: 0 auto;
     margin-bottom: 68px;
 }
@@ -646,14 +596,11 @@ footer {
     content: '';
     width: 86%;
     height: 3px;
-    background: #0056ec;
+    background: #F61067;
     transition: opacity 0.5s;
 }
 
-.footer__wrapper__nav-services_services-activ::after {
-    width: 93%;
-}
-
+.footer__wrapper__nav-services_services-activ::after,
 .footer__wrapper__nav-contact-us_nav-contact-us-activ::after {
     width: 93%;
 }
@@ -733,11 +680,10 @@ footer {
     font-size: 17px;
 }
 
-.fab,
+
 .fa-facebook-square {
     width: 18px;
     height: 18px;
-    color: #FCFCFC;
 }
 
 .footer__wrapper__nav-follow-us_social_insagram {
@@ -766,15 +712,21 @@ footer {
     font-size: 18px;
 }
 
+.fa-twitter__footer,
+.fa-facebook-square__footer,
+.fa-instagram__footer,
+.fa-youtube__footer,
+.fa-medium-m__footer {
+    color: #FCFCFC;
+}
+ 
 .footer__wrapper_copywriter {
     font: 400 11.7px/19.11px 'Mplus 1p', arial, helvetica, sans-serif;
     color: #FCFCFC;
     margin-left: 675px;
 } 
 
-
-
-                                        /* МЕДИАЗАПРОСЫ */
+/* МЕДИАЗАПРОСЫ */ 
 
 
 
